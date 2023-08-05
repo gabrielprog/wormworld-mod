@@ -1,0 +1,170 @@
+.ui-widget-overlay {
+    background: #000000;
+    opacity: 0.5;
+}
+.wormworld-connect-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.wormworld-connect-count-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+}
+.wormworld-connect-count-b32 {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+}
+.wormworld-connect-box .titles {
+  line-height: 25px;
+  color: #f4a700;
+}
+#load_page_apoiador .ui-widget-header {
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+#load_page_apoiador .ui-widget-content {
+  color: #fff !important;
+}
+#load_page_apoiador .ui-widget.ui-widget-content {
+  border: none;
+  background-color: transparent;
+}
+#load_page_apoiador .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: 0;
+}
+#load_page_apoiador .ui-tabs .ui-tabs-panel {
+  padding: 0;
+}
+#load_page_apoiador .ui-state-default,
+#load_page_apoiador .ui-widget-content .ui-state-default,
+#load_page_apoiador .ui-widget-header .ui-state-default {
+  background: transparent;
+  border: none;
+  min-width: 40px;
+}
+#load_page_apoiador .ui-tabs-active a {
+  border: 1px solid tomato;
+}
+#wwc_room_item a {
+  display: block;
+  color: #fff;
+  line-height: 30px;
+  padding: 0px 5px;
+}
+#wwc_room_item a:hover {
+  background-color: rgb(0, 0, 0);
+}
+#game-wrap #game-cont #stretch-box #main-menu-view .line-bottom #mm-wwc {
+  background-color: #ff2020;
+  color: #fff;
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+  text-align: center;
+  text-shadow: 0 0 1px #000;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  min-width: 120px;
+  display: inline-block;
+  float: right;
+  margin: 0 3px;
+}
+
+.title-worm-world-connect {
+  font-size: 1.2em !important;
+  color: red;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+.selecionar-sala {
+  padding: 1px;
+  margin: 1px;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.selecionar-sala:hover {
+}
+
+#contadorKill_1,
+#contadorKill_2,
+#myroom {
+  display: block;
+  border-radius: 10px;
+  padding: 0 3px;
+  width: 68px;
+  color: #fff;
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  top: 110px;
+  left: 21px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0.6em;
+  display: none;
+}
+#contadorKill_2 {
+  /* border: 2px solid #cd7d26; */
+  border-radius: 6px;
+  top: 135px;
+}
+#myroom {
+  border-radius: 6px;
+  top: 3px;
+  left: -21px;
+}
+
+#contadorKill_1 > *,
+#contadorKill_2 > * {
+  width: 40%;
+  text-align: center;
+  line-height: 1em;
+  display: inline-block;
+}
+
+#idReplaceSkin {
+  position: absolute;
+}
+.iscustom {
+  background-color: #ffffff !important;
+  color: #3f51b5 !important;
+}
+.f32 .flag{display:inline-block;height:32px;width:32px;vertical-align:text-top;line-height:32px;background:url('https://wormworld.herokuapp.com/images/flags.png') no-repeat;}
+
+.f32 .br{background-position:0px 0px;}
+.f32 .us{background-position:0px -35px;}
+.f32 .ca{background-position:0px -71px;}
+.f32 .mx{background-position:0px -106px;}
+.f32 .de{background-position:0px -141px;}
+.f32 .fr{background-position:0px -177px;}
+.f32 .sg{background-position:0px -212px;}
+.f32 .jp{background-position:0px -247px;}
+.f32 .au{background-position:0px -283px;}
+.f32 .gb{background-position:0px -318px;}
+.f32 .x2{background-position:0px -330px;}

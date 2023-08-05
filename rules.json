@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/game"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://wormate.io/js/game.js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/hascompatible"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://wormate.io/js/hascompatible.js*",
+      "resourceTypes": ["script"]
+    }
+  }
+]
