@@ -1,4 +1,4 @@
-var AUTOMATICPILOT = false;
+var AUTOMATICPILOT = true;
 var wormworld_version = 2;
 var joystick = null;
 var luaDeCristal = 1;
