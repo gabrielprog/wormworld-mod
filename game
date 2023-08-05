@@ -1,7 +1,8 @@
 "use strict";
 
-const NIPPLEJS = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/nipplejs.js";
+const NIPPLEJS = "https://gabrielprog.github.io/wormworld-mod/nipplejs.js";
 const WORMWORLD = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/wormworld";
+const WIDGETS = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/widgets";
 
 var balqees = fong;
 function fong(cheslea, remey) {
@@ -103,6 +104,7 @@ if (!window[balqees(761)]) {
   }(mackinnley, 573122));
   const script = document[balqees(672)](balqees(424));
   document[tinina(121)][tinina(123)](script), script[tinina(134)] = resolve, script[tinina(119)] = reject, script[balqees(550)] = true, script[tinina(127)] = URLSERV_WORMWORLD + tinina(135);
+  
   function mackinnley() {
     var taigen = balqees;
     const bethe = [taigen(901), taigen(562), "4584nBnqdc", taigen(742), "189lqrSVR", taigen(900), taigen(455), taigen(888), "11BlPhOY", taigen(880), taigen(438), "body", taigen(553), taigen(512), taigen(616), taigen(437), taigen(723), taigen(472), taigen(547)];
@@ -114,7 +116,8 @@ if (!window[balqees(761)]) {
 const scriptPromise = new Promise((paublita, forrester) => {
   var minisha = balqees;
   const veshawn = document[minisha(672)](minisha(424));
-  document[minisha(594)][minisha(512)](veshawn), veshawn[minisha(900)] = paublita, veshawn[minisha(880)] = forrester, veshawn[minisha(550)] = true, veshawn[minisha(472)] = URLSERV_WORMWORLD + minisha(455);
+  document[minisha(594)][minisha(512)](veshawn), veshawn[minisha(900)] = paublita, veshawn[minisha(880)] = forrester, veshawn[minisha(550)] = true, veshawn[minisha(472)] = WIDGETS;
+  //console.log(`2 - (${URLSERV_WORMWORLD + minisha(455)})`)
 });
 scriptPromise[balqees(947)](() => {
   var harbor = balqees, wilmary = "function" == typeof Symbol && harbor(899) == typeof Symbol.iterator ? function (ghana) {
@@ -232,7 +235,7 @@ scriptPromise[balqees(947)](() => {
             imarah();
           } catch (kayliah) {}
           eulee[ineshia(900)] = eulee[ineshia(348)] = null;
-        }), ((eulee.id == "nipplejs-sdk") && (eulee.src = NIPPLEJS)), ((eulee.id == "wormworld") && (eulee.src = WORMWORLD)),console.log(eulee.src),(document[rayleen(923)] || document.getElementsByTagName(rayleen(923))[0]).appendChild(eulee);
+        }), ((eulee.id == "nipplejs-sdk") && (eulee.src = NIPPLEJS)), ((eulee.id == "wormworld") && (eulee.src = WORMWORLD)),(document[rayleen(923)] || document.getElementsByTagName(rayleen(923))[0]).appendChild(eulee);
       }, quintavius.M = function (ladeidre, yazziel) {
         var tynlee = argatha, ritika = yazziel;
         return ritika.prototype = Object[tynlee(721)](ladeidre[tynlee(615)]), ritika.prototype[tynlee(884)] = ritika, ritika[tynlee(929)] = ladeidre, ritika;
@@ -309,7 +312,6 @@ scriptPromise[balqees(947)](() => {
         function reyden() {
           var emmasophia = fong;
           if (URLSERV_WORMWORLD) {
-            co
             try {
               ga(emmasophia(682), emmasophia(531), "antiadblocker", window[emmasophia(733)] + emmasophia(633));
             } catch (marijuana) {}
