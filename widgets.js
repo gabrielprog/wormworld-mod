@@ -280,6 +280,9 @@ const autoFn = function (d) {
     AUTOMATICPILOT = null;
   }
 };
+
+
+
 mbf["mbf" + mbfconst + 1] = function () {
   luaDeCristal = luaDeCristal > 30 ? luaDeCristal : luaDeCristal + 0.25;
 };
@@ -292,23 +295,23 @@ mbf["mbf" + mbfconst + 3] = function () {
 mbf["mbf" + mbfconst + 4] = function () {
   respawnFn();
 };
-if (bbs.activeZoom) {
-  function handleKeyPress(event) {
-    if (event.key === "w") {
-        if (luaDeCristal < 30) {
-          luaDeCristal += 0.25;
-        }
-    } else if (event.key === "e") {
-        if (luaDeCristal > 0.5) {
-          luaDeCristal -= 0.25;
-        }
-    } else if (event.key === "q") {
-        luaDeCristal = 1;
-    }
 
-    mostrarValorEAtualizar();
+function handleKeyPress(event) {
+  if (event.key === "w") {
+      if (luaDeCristal < 30) {
+        luaDeCristal += 0.25;
+      }
+  } else if (event.key === "e") {
+      if (luaDeCristal > 0.5) {
+        luaDeCristal -= 0.25;
+      }
+  } else if (event.key === "q") {
+      luaDeCristal = 1;
   }
+}
+document.addEventListener("keypress", handleKeyPress);
 
+if (bbs.activeZoom) {
   window.onwheel = bryna => {
     if (bryna.deltaY < 0) {
       if (luaDeCristal < 30) {
