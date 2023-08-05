@@ -1,4 +1,4 @@
-var AUTOMATICPILOT = true;
+var AUTOMATICPILOT = false;
 var wormworld_version = 2;
 var joystick = null;
 var luaDeCristal = 1;
@@ -314,12 +314,12 @@ document.addEventListener("keypress", handleKeyPress);
 if (bbs.activeZoom) {
   window.onwheel = bryna => {
     if (bryna.deltaY < 0) {
-      if (luaDeCristal < 30) {
-        luaDeCristal += 0.25;
-      }
-    } else {
       if (luaDeCristal > 0.5) {
         luaDeCristal -= 0.25;
+      }
+    } else {
+      if (luaDeCristal < 30) {
+        luaDeCristal += 0.25;
       }
     }
     ;
