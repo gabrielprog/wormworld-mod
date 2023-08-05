@@ -293,6 +293,22 @@ mbf["mbf" + mbfconst + 4] = function () {
   respawnFn();
 };
 if (bbs.activeZoom) {
+  function handleKeyPress(event) {
+    if (event.key === "w") {
+        if (luaDeCristal < 30) {
+          luaDeCristal += 0.25;
+        }
+    } else if (event.key === "e") {
+        if (luaDeCristal > 0.5) {
+          luaDeCristal -= 0.25;
+        }
+    } else if (event.key === "q") {
+        luaDeCristal = 1;
+    }
+
+    mostrarValorEAtualizar();
+  }
+
   window.onwheel = bryna => {
     if (bryna.deltaY < 0) {
       if (luaDeCristal < 30) {
