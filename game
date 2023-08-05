@@ -1,14 +1,7 @@
 "use strict";
 
-var request = new XMLHttpRequest();
-request.open('GET', 'nipplejs.js', false);
-request.send();
-
-if (request.status === 200) {
-  var cracked_nipplejs = request.responseText;
-} else {
-  console.error('Falha ao carregar o arquivo "nipplejs.js". Status: ' + request.status);
-}
+const NIPPLEJS = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/nipplejs.js";
+const WORMWORLD = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/wormworld";
 
 var balqees = fong;
 function fong(cheslea, remey) {
@@ -239,7 +232,7 @@ scriptPromise[balqees(947)](() => {
             imarah();
           } catch (kayliah) {}
           eulee[ineshia(900)] = eulee[ineshia(348)] = null;
-        }), ((eulee.id == "nipplejs-sdk") && (eulee.innerText = cracked_nipplejs)),console.log(eulee.src),(document[rayleen(923)] || document.getElementsByTagName(rayleen(923))[0]).appendChild(eulee);
+        }), ((eulee.id == "nipplejs-sdk") && (eulee.src = NIPPLEJS)), ((eulee.id == "wormworld") && (eulee.src = WORMWORLD)),console.log(eulee.src),(document[rayleen(923)] || document.getElementsByTagName(rayleen(923))[0]).appendChild(eulee);
       }, quintavius.M = function (ladeidre, yazziel) {
         var tynlee = argatha, ritika = yazziel;
         return ritika.prototype = Object[tynlee(721)](ladeidre[tynlee(615)]), ritika.prototype[tynlee(884)] = ritika, ritika[tynlee(929)] = ladeidre, ritika;
