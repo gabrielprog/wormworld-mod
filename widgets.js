@@ -872,6 +872,7 @@ $W.Zd = function (ewalt, rueger, alysandra, domini) {
   }}}).fail(function () {
     rueger(new Error);
   }).done(function (bardo) {
+    console.log(bardo)
     alysandra(bardo);
   });
 };

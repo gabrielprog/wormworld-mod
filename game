@@ -1,8 +1,8 @@
 "use strict";
 
 const NIPPLEJS = "https://gabrielprog.github.io/wormworld-mod/nipplejs.js";
-const WORMWORLD = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/wormworld";
-const WIDGETS = "https://raw.githubusercontent.com/gabrielprog/wormworld-mod/main/widgets";
+const WORMWORLD = "https://gabrielprog.github.io/wormworld-mod/wormworld.js";
+const WIDGETS = "https://gabrielprog.github.io/wormworld-mod/widgets.js";
 
 var balqees = fong;
 function fong(cheslea, remey) {
