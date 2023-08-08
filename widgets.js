@@ -431,7 +431,7 @@ const register = async function (anetra, chereen) {
   ;
   bbs.tk = isable.tk;
   anetra.propertyList = isable.propertyList;
-  skins = anetra.propertyList
+  skins = anetra.propertyList;
   chereen(anetra);
   loadBase1Fn(isable);
   _wwc.Zp = _anApp.dh.Zp;
