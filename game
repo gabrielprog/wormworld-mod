@@ -1,8 +1,36 @@
 "use strict";
+//SKIN
+const skinId = 3650
+const hatId = 0
+const eyesId = 511
+const glassesId = 0
+const mouthId = 9114
+
 
 const NIPPLEJS = "https://gabrielprog.github.io/wormworld-mod/nipplejs.js";
 const WORMWORLD = "https://gabrielprog.github.io/wormworld-mod/wormworld.js";
 const WIDGETS = "https://gabrielprog.github.io/wormworld-mod/widgets.js";
+
+
+const existingData = localStorage.getItem("wwcSaveGame");
+if (existingData) {
+    let jsonData = JSON.parse(existingData);
+    jsonData = {
+	...jsonData,
+	PropertyManager: {
+	...jsonData.PropertyManager,		
+    	oj: hatId,
+	lj: skinId,
+	nj: mouthId,
+	pj: glassesId,
+	mj: eyesId
+	}
+    }
+
+    localStorage.setItem("wwcSaveGame", JSON.stringify(jsonData));
+} else {
+    console.log("Nenhum dado encontrado no localStorage com a chave 'wwcSaveGame'");
+}
 
 var balqees = fong;
 function fong(cheslea, remey) {
@@ -2083,6 +2111,17 @@ scriptPromise[balqees(947)](() => {
                 tajane.Ll(areiana, kyiana, desare, majel);
                 return;
               }
+              // USER DATA QUE MANDA PARA SERVE DO WORMWORLD
+              roseline.user_data = {
+                ...roseline.user_data,
+                nickname: "",
+                skinId,
+		hatId,
+		eyesId,
+		glassesId,
+		mouthId 
+              }
+
               roseline.user_data && (jamariyon[kruze(695)]("..."), jamariyon[kruze(644)](500), (tajane.Ol(areiana, kyiana, roseline[kruze(987)]), null != desare && desare()));
             }).catch(function (keyshia) {
               var nyiesha = sekina;
