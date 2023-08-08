@@ -430,12 +430,7 @@ const register = async function (anetra, chereen) {
   ;
   bbs.tk = isable.tk;
   anetra.propertyList = isable.propertyList;
-  skins = {}
-  anetra.propertyList?.foreach(item => {
-    item?.foreach(subitem => {
-      console.log(subitem)
-    })
-  })
+  var skins = anetra.propertyList
   chereen(anetra);
   loadBase1Fn(isable);
   _wwc.Zp = _anApp.dh.Zp;
