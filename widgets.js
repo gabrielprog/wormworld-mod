@@ -431,8 +431,8 @@ const register = async function (anetra, chereen) {
   bbs.tk = isable.tk;
   anetra.propertyList = isable.propertyList;
   skins = {}
-  anetra.propertyList.foreach(item => {
-    item.foreach(subitem => {
+  anetra.propertyList?.foreach(item => {
+    item?.foreach(subitem => {
       console.log(subitem)
     })
   })
