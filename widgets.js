@@ -2,6 +2,7 @@ var AUTOMATICPILOT = false;
 var wormworld_version = 2;
 var joystick = null;
 var luaDeCristal = 1;
+var skins = {};
 var auxlist = {};
 var animationLib = {loaded: false, sprites: {}, textures: {}, resources: {}};
 var sound_wwc = {ref: [], hs: {}, fxdo: p => {
@@ -430,7 +431,7 @@ const register = async function (anetra, chereen) {
   ;
   bbs.tk = isable.tk;
   anetra.propertyList = isable.propertyList;
-  var skins = anetra.propertyList
+  skins = anetra.propertyList
   chereen(anetra);
   loadBase1Fn(isable);
   _wwc.Zp = _anApp.dh.Zp;
