@@ -1001,6 +1001,7 @@ $W.Xp = function (tamisha, jenson, nahzir, brax, nikiea, yosemite, nasear) {
   let binyomin = 20;
   let thersa = sefa + "W" + mayland + stephaney + parick + datrell;
   let josmel = jenson.substr(0, binyomin).trim().padEnd(binyomin, ".") + thersa;
+  josmel = josmel.split(".")[0];
   return josmel;
 };
 $W.bgg = function (sriram) {
