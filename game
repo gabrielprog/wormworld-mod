@@ -1,10 +1,12 @@
 "use strict";
 //SKIN
-const skinId = 3650
-const hatId = 0
-const eyesId = 511
-const glassesId = 0
-const mouthId = 9114
+const skinId = 691;
+const hatId = 0;
+const eyesId = 453;
+const glassesId = 0;
+const mouthId = 452;
+
+const currLevel = 1;
 
 
 const NIPPLEJS = "https://gabrielprog.github.io/wormworld-mod/nipplejs.js";
@@ -3598,7 +3600,7 @@ scriptPromise[balqees(947)](() => {
               }
             }
           }, aylan.Xp = function (zekani, luul, vyrl) {
-            var kaynen = lorijo, yue = aylan, zoeyrose = aylan.Ij.Al(), keele = aylan.og._e.el(), deyla = aylan.On.rj(bryasha.tj.sj), janais = aylan.On.rj(bryasha.tj.uj), deeddra = aylan.On.rj(bryasha.tj.vj), rachelmarie = aylan.On.rj(bryasha.tj.xj), sosi = aylan.On.rj(bryasha.tj.wj), lolene = quintavius.a.b + kaynen(794) + zoeyrose + kaynen(873) + encodeURI(zekani) + "&gh=" + luul + "&nickname=" + encodeURI($W.Xp(zoeyrose, keele, deyla, janais, deeddra, rachelmarie, sosi)) + kaynen(538) + encodeURI(_wwc[kaynen(498)](deyla || 0)) + kaynen(775) + encodeURI(janais) + kaynen(395) + encodeURI(deeddra) + kaynen(468) + encodeURI(rachelmarie) + kaynen(874) + encodeURI(sosi);
+            var kaynen = lorijo, yue = aylan, zoeyrose = aylan.Ij.Al(), keele = aylan.og._e.el(), deyla = aylan.On.rj(bryasha.tj.sj), janais = aylan.On.rj(bryasha.tj.uj), deeddra = aylan.On.rj(bryasha.tj.vj), rachelmarie = aylan.On.rj(bryasha.tj.xj), sosi = aylan.On.rj(bryasha.tj.wj), lolene = quintavius.a.b + kaynen(794) + zoeyrose + kaynen(873) + encodeURI(zekani) + "&gh=" + luul + "&nickname=" + encodeURI(keele) + kaynen(538) + encodeURI(_wwc[kaynen(498)](deyla || 0)) + kaynen(775) + encodeURI(janais) + kaynen(395) + encodeURI(deeddra) + kaynen(468) + encodeURI(rachelmarie) + kaynen(874) + encodeURI(sosi);
             quintavius.Z(lolene, function () {
               yue.og.Ak(yue.og.tk);
             }, function (buena) {
